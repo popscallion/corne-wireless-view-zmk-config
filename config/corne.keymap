@@ -14,30 +14,30 @@
         base_layer {
             label = "Base";
             bindings = <
-&trans  &kp Q             &kp W  &kp E                &kp R             &kp T                   &kp Y            &kp U        &kp I            &kp O    &kp P                  &trans
-&trans  &kp A             &kp S  &kp D                &kp F             &kp G                   &kp H            &kp J        &kp K            &kp L    &kp SEMI               &trans
-&trans  &mt LEFT_SHIFT Z  &kp X  &kp C                &kp V             &kp B                   &kp N            &kp M        &kp COMMA        &kp DOT  &mt RIGHT_SHIFT SLASH  &trans
-                                 &mt LEFT_ALT ESCAPE  &kp LEFT_COMMAND  &mt LEFT_CONTROL TAB    &mt GLOBE ENTER  &lt 1 SPACE  &lt 2 BACKSPACE
+&trans  &kp Q             &kp W  &kp E                    &kp R             &kp T                     &kp Y            &kp U         &kp I            &kp O    &kp P                  &trans
+&trans  &kp A             &kp S  &kp D                    &kp F             &kp G                     &kp H            &kp J         &kp K            &kp L    &kp SEMI               &trans
+&trans  &mt LEFT_SHIFT Z  &kp X  &kp C                    &kp V             &kp B                     &kp N            &kp M         &kp COMMA        &kp DOT  &mt RIGHT_SHIFT SLASH  &trans
+                                 &mt LEFT_CONTROL ESCAPE  &mt LEFT_ALT TAB  &mt LEFT_COMMAND SPACE    &mt GLOBE ENTER  &lt 1 DELETE  &lt 2 BACKSPACE
             >;
         };
 
         symbol_layer {
             label = "Symbol";
             bindings = <
-&trans  &kp N1          &kp N2    &kp N3               &kp N4            &kp N5                  &kp N6           &kp N7     &kp N8            &kp N9             &kp N0                     &trans
-&trans  &kp GRAVE       &kp HOME  &kp PAGE_DOWN        &kp PAGE_UP       &kp END                 &kp LEFT         &kp DOWN   &kp UP            &kp RIGHT          &kp SINGLE_QUOTE           &trans
-&trans  &kp LEFT_SHIFT  &trans    &trans               &trans            &trans                  &kp MINUS        &kp EQUAL  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &mt RIGHT_SHIFT BACKSLASH  &trans
-                                  &mt LEFT_ALT ESCAPE  &kp LEFT_COMMAND  &mt LEFT_CONTROL TAB    &mt GLOBE ENTER  &trans     &kp BACKSPACE
+&trans  &kp N1          &kp N2    &kp N3                   &kp N4            &kp N5                    &kp N6           &kp N7     &kp N8            &kp N9             &kp N0                     &trans
+&trans  &kp GRAVE       &kp HOME  &kp PAGE_DOWN            &kp PAGE_UP       &kp END                   &kp LEFT         &kp DOWN   &kp UP            &kp RIGHT          &kp SINGLE_QUOTE           &trans
+&trans  &kp LEFT_SHIFT  &trans    &trans                   &trans            &trans                    &kp MINUS        &kp EQUAL  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &mt RIGHT_SHIFT BACKSLASH  &trans
+                                  &mt LEFT_CONTROL ESCAPE  &mt LEFT_ALT TAB  &mt LEFT_COMMAND SPACE    &mt GLOBE ENTER  &trans     &kp BACKSPACE
             >;
         };
 
         function_layer {
             label = "Function";
             bindings = <
-&trans  &kp F1          &kp F2   &kp F3               &kp F4            &kp F5                  &kp F6           &kp F7             &kp F8           &kp F9                &kp F10               &trans
-&trans  &kp F11         &kp F12  &kp C_PREVIOUS       &kp C_PLAY        &kp C_NEXT              &kp C_MUTE       &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &trans
-&trans  &kp LEFT_SHIFT  &trans   &trans               &trans            &trans                  &trans           &trans             &trans           &trans                &kp RIGHT_SHIFT       &trans
-                                 &mt LEFT_ALT ESCAPE  &kp LEFT_COMMAND  &mt LEFT_CONTROL TAB    &mt GLOBE ENTER  &kp SPACE          &trans
+&trans  &kp F1          &kp F2   &kp F3                   &kp F4            &kp F5                    &kp F6           &kp F7             &kp F8           &kp F9                &kp F10               &trans
+&trans  &kp F11         &kp F12  &kp C_PREVIOUS           &kp C_PLAY        &kp C_NEXT                &kp C_MUTE       &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &trans
+&trans  &kp LEFT_SHIFT  &trans   &trans                   &trans            &trans                    &trans           &trans             &trans           &trans                &kp RIGHT_SHIFT       &trans
+                                 &mt LEFT_CONTROL ESCAPE  &mt LEFT_ALT TAB  &mt LEFT_COMMAND SPACE    &mt GLOBE ENTER  &kp DELETE         &trans
             >;
         };
     };
